@@ -16,8 +16,6 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="*" element={<Public/>} />
-      
-      
     </Routes>
   </BrowserRouter>
 );
