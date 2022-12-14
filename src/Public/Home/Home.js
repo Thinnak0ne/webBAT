@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div className='Main'>Home</div>
+    <div className='headhomeB'>
+      <span className='mainbodyhomeB'>
+          <div className='bodyhomeB'>
+            ໜ້າຫຼັກ
+          </div>
+      </span>
+    </div>
   )
 }
