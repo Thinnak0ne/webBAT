@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div 
     //className='headhomeB'
+    style={{paddingTop:'60px'}}
     >
       <span 
       //className='mainbodyhomeB'
