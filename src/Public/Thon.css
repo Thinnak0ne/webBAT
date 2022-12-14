@@ -1,4 +1,17 @@
-.Main {
+.disJustT{
     display: flex;
     justify-content: center;
+    text-align: center;
+    width: 100vw;
+    max-width: 300px;
+    background-color: aqua;
 }
+/* HomeT */
+.containHomeT{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 90vw;
+}
+
+/* >HomeT */

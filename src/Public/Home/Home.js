@@ -15,6 +15,20 @@ export default function Home() {
           </ul>
           <img src={Img1} className="ImgB" />
         </div>
+        <div className='containHomeT'>
+          <div className='disJustT'>
+            Store
+          </div>
+          <div className='disJustT'>
+            Fix
+          </div>
+          <div className='disJustT'>
+            Mobile
+          </div>
+          <div className='disJustT'>
+            Contract
+          </div>
+        </div>
       </div>
 
     </div>
