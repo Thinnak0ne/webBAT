@@ -7,13 +7,13 @@ export default function Navbar() {
   function scrollFunction() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       document.getElementById("navbar").style.color = '#d3dbde';
-      document.getElementById("navbar").style.backgroundColor = "#3d4143";
-      document.getElementById("navbar").style.padding = "5px 5px";
+      document.getElementById("navbar").style.backgroundColor = "#000";
+
 
     } else {
       document.getElementById("navbar").style.color = '#d3dbde';
-      document.getElementById("navbar").style.backgroundColor = "#041014";
-      document.getElementById("navbar").style.padding = "10px 10px";
+      document.getElementById("navbar").style.backgroundColor = "#282931";
+
     }
   }
   return (
@@ -22,6 +22,7 @@ export default function Navbar() {
       <div className='nav' >ສິນຄ້າ</div>
       <div className='nav' >ບໍລິການອື່ນໆ</div>
       <div className='nav' >ກ່ຽວກັບພວກເຮົາ</div>
+      <div className='nav' >ຕິດຕໍ່ພວກເຮົາ</div>
     </div>
   )
 }
