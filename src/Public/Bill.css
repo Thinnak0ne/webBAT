@@ -1,4 +1,124 @@
-.MainB{
+.headhomeB {
     display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: center;
 }
+
+.mainbodyhomeB {
+    height: 150vh;
+    max-width: 1200px;
+    width: 100vw;
+}
+
+.bodyhomeB {
+    height: 150vh;
+    max-width: 1300px;
+    width: 100vw;
+    color: #d3dbde;
+}
+
+
+.overlay {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    height: 50px;
+    overflow: overlay;
+    width: 100%;
+    max-width: 1300px;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: dimgray;
+    position: absolute;
+    border-radius: 5px;
+}
+
+
+
+
+
+#navbar {
+    color: #d3dbde;
+    overflow: hidden;
+    padding: 5px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+#navbar .nav {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+#navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.nav:hover {
+    background-color: #2d6382;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 580px) {
+    #navbar {
+        padding: 20px 10px !important;
+    }
+
+    #navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #navbar-right {
+        float: none;
+    }
+}
+.txtHome1{
+    
+    color: white;
+}
+.ulHomeB{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.ImgB{
+    height: 550px;
+    width: 550px;
+}
+
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 32px;
+}
+
