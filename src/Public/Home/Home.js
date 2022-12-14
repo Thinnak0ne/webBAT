@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div className='headhomeB'>
       <span className='mainbodyhomeB'>
-          <div className='bodyhomeB'>
+          <ul className='bodyhomeB'>
             ໜ້າຫຼັກ
-          </div>
+          </ul>
       </span>
     </div>
   )

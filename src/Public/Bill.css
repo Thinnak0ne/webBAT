@@ -12,10 +12,10 @@
 
 .bodyhomeB {
     font-family: 'Noto Sans Lao';
-    background-color: #394246;
     height: 150vh;
     max-width: 1300px;
     width: 100vw;
+    color: #d3dbde;
 }
 
 
@@ -46,14 +46,13 @@
 }
 
 
-
 body {
     margin: 0;
     font-family: 'Noto Sans Lao';
 }
 
 #navbar {
-    color: white;
+    color: #d3dbde;
     overflow: hidden;
     padding: 10px 10px;
     transition: 0.4s;
@@ -81,18 +80,11 @@ body {
 
 .nav:hover {
     background-color: #2d6382;
-    color: black;
+    color: white;
     cursor: pointer;
 }
 
-#navbar a.active {
-    background-color: dodgerblue;
-    color: white;
-}
 
-#navbar-right {
-    float: right;
-}
 
 @media screen and (max-width: 580px) {
     #navbar {

@@ -6,7 +6,7 @@ export default function Navbar() {
   window.onscroll = function () { scrollFunction() };
   function scrollFunction() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-      document.getElementById("navbar").style.color = '#d3dbde';
+      document.getElementById("navbar").style.color = 'white';
       document.getElementById("navbar").style.backgroundColor = "#3d4143";
       document.getElementById("navbar").style.padding = "5px 5px";
 
