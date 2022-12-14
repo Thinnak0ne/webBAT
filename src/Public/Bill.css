@@ -54,7 +54,7 @@ body {
 #navbar {
     color: #d3dbde;
     overflow: hidden;
-    padding: 10px 10px;
+    padding: 5px;
     transition: 0.4s;
     position: fixed;
     width: 100%;
