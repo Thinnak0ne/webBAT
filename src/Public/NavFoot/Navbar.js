@@ -1,15 +1,12 @@
 import React from 'react'
-import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
 
   window.onscroll = function () { scrollFunction() };
   function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
       document.getElementById("navbar").style.color = '#d3dbde';
       document.getElementById("navbar").style.backgroundColor = "#000";
-
-
     } else {
       document.getElementById("navbar").style.color = '#d3dbde';
       document.getElementById("navbar").style.backgroundColor = "#282931";
