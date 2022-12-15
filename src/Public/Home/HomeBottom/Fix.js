@@ -1,12 +1,12 @@
 import React from 'react'
-import HandymanIcon from '@mui/icons-material/Handyman';
+import Icon from '../../../img/illust57-5421.png'
 export default function Fix() {
   return (
     <div className="BoxT">
       <div>
-        <div class="containerIconT">
-          <HandymanIcon class="IconHomeT" />
-          <div class="overlay"></div>
+        <div className="containerIconT">
+          <img alt='' src={Icon} className="IconHomeT"/>
+          <div className="overlay"></div>
         </div>
       </div>
       <div className="TextT">Fix</div>

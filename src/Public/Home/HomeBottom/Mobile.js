@@ -1,12 +1,12 @@
 import React from 'react'
-import AppSettingsAltIcon from '@mui/icons-material/AppSettingsAlt';
+import Icon from '../../../img/191.png'
 export default function Mobile() {
   return (
     <div className="BoxT">
     <div>
-      <div class="containerIconT">
-        <AppSettingsAltIcon class="IconHomeT" />
-        <div class="overlay"></div>
+      <div className="containerIconT">
+          <img alt='' src={Icon} className="IconHomeT"/>
+        <div className="overlay"></div>
       </div>
     </div>
     <div className="TextT">Mobile</div>

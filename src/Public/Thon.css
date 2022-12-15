@@ -7,7 +7,8 @@
     display: flex;
     justify-content: center;
     max-width: 1200px;
-    width: 90vw;
+    width: 100vw;
+
 }
 
 /* >HomeT */
@@ -40,14 +41,18 @@
 .containerIconT {
   position: relative;
   width: 130px;
+  height: 130px;
   outline-style: solid;
   outline-color: #fccc76;
   border-radius: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .IconHomeT {
   display: block;
-  width: 43.25px;
-  padding: 43.25px;
+  width: 50px;
+  padding: 40px;
   height: auto;
   transition: .5s;
 }
@@ -63,7 +68,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ;
-  background-color: #f2f2f4;
+  background-color: #000;
 }
 .BoxT:hover{
   border-radius: 65px;
@@ -72,11 +77,10 @@
   opacity: 1;
 }
 .BoxT:hover .TextT {
-  font-size:40px;
+  font-size:35px;
 }
 .BoxT:hover .IconHomeT {
-  display: block;
-  width: 50px;
+  width: 80px;
   padding: 40px;
   height: auto;
   transition: .5s;

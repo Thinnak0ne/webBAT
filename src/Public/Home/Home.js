@@ -1,6 +1,5 @@
 import React from "react";
 import Img1 from "../../img/FusionChart_Suite_Romania.png";
-import Grid from "@mui/material/Grid";
 import Carousel from "react-grid-carousel";
 
 import StoreB from './HomeBottom/Store'
@@ -31,19 +30,19 @@ export default function Home() {
               gap={20}
               responsiveLayout={[
                 {
-                  breakpoint: 1010,
+                  breakpoint: 1200,
                   cols: 3,
-                  rows: 1,
+                  rows: 2,
                 },
                 {
-                  breakpoint: 760,
+                  breakpoint: 920,
                   cols: 2,
-                  rows: 1,
+                  rows: 2,
                 },
                 {
-                  breakpoint: 570,
+                  breakpoint: 620,
                   cols: 1,
-                  rows: 1,
+                  rows: 4,
                 },
               ]}
               mobileBreakpoint={390}
@@ -71,20 +70,7 @@ export default function Home() {
                 </div>
               </Carousel.Item>
             </Carousel>
-          {/* <Grid container spacing={10}>
-            <Grid item xs={3}>
-              <StoreB/>
-            </Grid>
-            <Grid item xs={3}>
-              <Fix/>
-            </Grid>
-            <Grid item xs={3}>
-              <Mobile/>
-            </Grid>
-            <Grid item xs={3}>
-              <Contact/>
-            </Grid>
-          </Grid> */}
+      
         </div>
       </div>
     </div>
