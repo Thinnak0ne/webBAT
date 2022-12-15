@@ -6,12 +6,13 @@ export default function Navbar() {
   function scrollFunction() {
     console.log(document.documentElement.scrollTop)
     var navi = document.documentElement.scrollTop
-    if (navi > 500) {
+    if (navi > 250) {
+      document.getElementById("navbar").style.opacity= 100;
       document.getElementById("navbar").style.color = '#d3dbde';
       document.getElementById("navbar").style.backgroundColor = "#000";
     } 
     else {
-      document.getElementById("navbar").style.color = ' none';
+      document.getElementById("navbar").style.opacity= 0;
       document.getElementById("navbar").style.backgroundColor = "unset ";
       }
   }
