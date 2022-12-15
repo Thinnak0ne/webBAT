@@ -1,17 +1,87 @@
 .disJustT{
     display: flex;
     justify-content: center;
-    text-align: center;
-    width: 100vw;
-    max-width: 300px;
-    background-color: aqua;
 }
 /* HomeT */
 .containHomeT{
     display: flex;
-    justify-content: space-between;
-    max-width: 100%;
+    justify-content: center;
+    max-width: 1200px;
     width: 90vw;
 }
 
 /* >HomeT */
+/* HomeBottomT */
+.BoxT{
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    height:130px;
+    outline-color: #FF8801;
+    outline-style: solid;
+    border-radius: 65px 0px 0px 65px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.TextT{
+    max-width: 130px;
+    width: 100vw;
+    max-height: 130px;
+    height:100vh;
+    font-size:30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.containerIconT {
+  position: relative;
+  width: 130px;
+  outline-style: solid;
+  outline-color: #fccc76;
+  border-radius: 65px;
+}
+.IconHomeT {
+  display: block;
+  width: 43.25px;
+  padding: 43.25px;
+  height: auto;
+  transition: .5s;
+}
+.overlay {
+  z-index:-1;
+  position: absolute;
+  border-radius: 65px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ;
+  background-color: #f2f2f4;
+}
+.BoxT:hover{
+  border-radius: 65px;
+}
+.BoxT:hover .overlay {
+  opacity: 1;
+}
+.BoxT:hover .TextT {
+  font-size:40px;
+}
+.BoxT:hover .IconHomeT {
+  display: block;
+  width: 50px;
+  padding: 40px;
+  height: auto;
+  transition: .5s;
+}
+
+
+
+/* >HomeBottomT */
