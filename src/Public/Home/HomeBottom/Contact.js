@@ -1,12 +1,12 @@
 import React from 'react'
-import ContactMailIcon from '@mui/icons-material/ContactMail';
+import Icon from '../../../img/46010.png'
 export default function Contact() {
   return (
     <div className="BoxT">
       <div>
-        <div class="containerIconT">
-          <ContactMailIcon class="IconHomeT" />
-          <div class="overlay"></div>
+        <div className="containerIconT">
+          <img alt='' src={Icon} className="IconHomeT"/>
+          <div className="overlay"></div>
         </div>
       </div>
       <div className="TextT">Contact</div>

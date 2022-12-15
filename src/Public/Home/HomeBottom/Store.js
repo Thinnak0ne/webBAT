@@ -1,12 +1,13 @@
 import React from "react";
-import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
+
+import Icon from '../../../img/Background.png'
 export default function Store() {
   return (
     <div className="BoxT">
       <div>
-        <div class="containerIconT">
-          <LocalGroceryStoreIcon class="IconHomeT" />
-          <div class="overlay"></div>
+        <div className="containerIconT">
+          <img alt='' src={Icon} className="IconHomeT"/>
+          <div className="overlay"></div>
         </div>
       </div>
       <div className="TextT">Store</div>

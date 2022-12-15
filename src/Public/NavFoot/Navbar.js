@@ -4,9 +4,9 @@ export default function Navbar() {
 
   window.onscroll = function () { scrollFunction() };
   function scrollFunction() {
-    console.log(document.documentElement.scrollTop)
+     console.log(document.documentElement.scrollTop)
     var navi = document.documentElement.scrollTop
-    if (navi > 250) {
+    if (navi > 800) {
       document.getElementById("navbar").style.opacity= 100;
       document.getElementById("navbar").style.color = '#d3dbde';
       document.getElementById("navbar").style.backgroundColor = "#000";
