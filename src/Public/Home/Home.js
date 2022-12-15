@@ -14,8 +14,6 @@ export default function Home() {
       <div className="mainbodyhomeB">
         <div className="ulHomeB">
           <ul className="txtHome1">
-            {/* <h1 >Welcome To Mystore</h1>
-            <h2>Hello</h2> */}
             <h1>
               Welcome To{" "}
               <ReactRotatingText items={["Mystore", "Your World!"]} />
