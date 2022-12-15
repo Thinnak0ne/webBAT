@@ -18,7 +18,6 @@
     color: #d3dbde;
 }
 
-
 .overlay {
     font-size: 22px;
     display: flex;
@@ -45,12 +44,8 @@
     border-radius: 5px;
 }
 
-
-
-
-
 #navbar {
-    color: #d3dbde;
+    opacity: 0;
     overflow: hidden;
     padding: 5px;
     transition: 0.4s;
@@ -100,7 +95,6 @@
     }
 }
 .txtHome1{
-    
     color: white;
 }
 .ulHomeB{

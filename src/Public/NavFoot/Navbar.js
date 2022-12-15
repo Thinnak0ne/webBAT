@@ -18,11 +18,11 @@ export default function Navbar() {
   }
   return (
     <div id="navbar">
-      <div className='nav' >ໜ້າຫຼັກ</div>
-      <div className='nav' >ສິນຄ້າ</div>
-      <div className='nav' >ບໍລິການອື່ນໆ</div>
-      <div className='nav' >ກ່ຽວກັບພວກເຮົາ</div>
-      <div className='nav' >ຕິດຕໍ່ພວກເຮົາ</div>
+      <div className='nav'>ໜ້າຫຼັກ</div>
+      <div className='nav'>ສິນຄ້າ</div>
+      <div className='nav'>ບໍລິການອື່ນໆ</div>
+      <div className='nav'>ກ່ຽວກັບພວກເຮົາ</div>
+      <div className='nav'>ຕິດຕໍ່ພວກເຮົາ</div>
     </div>
   )
 }
