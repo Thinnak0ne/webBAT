@@ -4,11 +4,16 @@ export default function Navbar() {
 
   window.onscroll = function () { scrollFunction() };
   function scrollFunction() {
-    console.log(document.body.scrollTop)
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    console.log(document.documentElement.scrollTop)
+    var navi = document.documentElement.scrollTop
+    if (navi > 500) {
       document.getElementById("navbar").style.color = '#d3dbde';
       document.getElementById("navbar").style.backgroundColor = "#000";
     } 
+    else {
+      document.getElementById("navbar").style.color = ' none';
+      document.getElementById("navbar").style.backgroundColor = "unset ";
+      }
   }
   return (
     <div id="navbar">
