@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from "../../../img/HighBuild.png";
+import Img from "../../../img/MidiumSpec.png";
 
 export default function MidiumSpec() {
   return (
@@ -9,12 +9,12 @@ export default function MidiumSpec() {
       </div>
       <div className="TextSPCStoreT">
         <div>
-          <div>CPU:Ryzen7/Intel Core i7</div>
-          <div>GPU:RTX 3070</div>
-          <div>RAM:32 GB</div>
-          <div>Storage:2 TB SSD</div>
+          <div>CPU:Ryzen5/Intel Core i5</div>
+          <div>GPU:RTX 3050</div>
+          <div>RAM:16 GB</div>
+          <div>Storage:1 TB SSD</div>
           <div className="empty20pxT"></div>
-          <div className="BottomSPCStoreT">Starting price:4300$</div>
+          <div className="BottomSPCStoreT">Starting price:2000$</div>
         </div>
       </div>
     </div>

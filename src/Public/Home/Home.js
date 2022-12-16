@@ -83,14 +83,18 @@ export default function Home() {
               <h1>ເວັບໄຊນີ້ແມ່ນພັດທະນາມາເພື່ອເປັນໂຕກາງໃນການຈັດຫາສະເປັກຄອມໄດ້ຕາມທີທ່ານຕ້ອງການ.</h1>
             </div>
             <div className="imagB">
+
               <img src={Img2} className="ImgB2" alt="img" />
+
             </div>
           </div>
         </div>
         <div className="containHomeT">
           <div className="containerB">
             <div className="imagB">
+
               <img src={Img3} className="ImgB2" alt="img" />
+
             </div>
             <div className="textB">
               <h1>ນອກຈາກນັ້ນພວກເຮົາຍັງມີບໍລິການອື່ນອີກຫຼາກຫຼາຍບໍ່ວ່າຈະເປັນບໍລິການມືຖື,ໂນ້ດບຸກ,ສ້ອມແປງ ແລະ ອື່ນໆ</h1>
@@ -103,7 +107,9 @@ export default function Home() {
               <h1>ວິໄສທັດຂອງພວກເຮົາມີຈຸດປະສົງຢາກມອບປະສົບການທີ່ທ່ານສາມາດເລືອກໄດ້ຕາມຄວາມຕ້ອງການ ແລະ ອຳນວຍຄວາມສະດວກສະບາຍໃຫ້ກັບທ່ານ.</h1>
             </div>
             <div className="imagB">
+
               <img src={Img4} className="ImgB2" alt="img" />
+
             </div>
           </div>
         </div>

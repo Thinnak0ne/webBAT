@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from "../../../img/HighBuild.png";
+import Img from "../../../img/LowSpec.png";
 
 export default function RowSpec() {
   return (
@@ -9,12 +9,12 @@ export default function RowSpec() {
       </div>
       <div className="TextSPCStoreT">
         <div>
-          <div>CPU:Ryzen7/Intel Core i7</div>
-          <div>GPU:RTX 3070</div>
-          <div>RAM:32 GB</div>
-          <div>Storage:2 TB SSD</div>
+          <div>CPU:Ryzen3/Intel Core i3</div>
+          <div>GPU: GTX 1650</div>
+          <div>RAM:4 GB</div>
+          <div>Storage:1 TB HDD</div>
           <div className="empty20pxT"></div>
-          <div className="BottomSPCStoreT">Starting price:4300$</div>
+          <div className="BottomSPCStoreT">Starting price:500$</div>
         </div>
       </div>
     </div>
