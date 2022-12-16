@@ -8,6 +8,7 @@ import './Thon.css'
 import './Main.css'
 import { Routes, Route } from "react-router-dom";
 import Store from './Content/Store'
+import Contact from "./Content/Contact";
 import Repair from './Content/Repair'
 export default function Index() {
   return (
@@ -29,6 +30,7 @@ export default function Index() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/store" element={<Store />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/repair" element={<Repair />} />
         </Routes>
         <FooterBar />
