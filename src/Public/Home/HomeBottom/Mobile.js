@@ -9,7 +9,7 @@ export default function Mobile() {
         <div className="overlay"></div>
       </div>
     </div>
-    <div className="TextT">Mobile</div>
+    <div className="TextT">ມືຖື</div>
   </div>
   )
 }

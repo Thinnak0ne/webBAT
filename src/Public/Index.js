@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home/Home";
 import NavigationBar from "./NavFoot/Navbar";
+import FooterBar from "./NavFoot/Footbar";
 import './Andy.css'
 import './Bill.css'
 import './Thon.css'
@@ -16,6 +17,7 @@ export default function Index() {
           <Route path="/" element={<Home />} />
           <Route path="/store" element={<Store />} />
         </Routes>
+        <FooterBar/>
       </React.StrictMode>
     </div>
   );

@@ -9,7 +9,7 @@ export default function Fix() {
           <div className="overlay"></div>
         </div>
       </div>
-      <div className="TextT">Fix</div>
+      <div className="TextT">ສ້ອມແປງ</div>
     </div>
   )
 }

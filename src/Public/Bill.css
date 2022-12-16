@@ -6,7 +6,6 @@
 }
 
 .mainbodyhomeB {
-    height: 150vh;
     max-width: 1200px;
     width: 100vw;
 }
@@ -94,25 +93,140 @@
         float: none;
     }
 }
-.txtHome1{
+
+.txtHome1 {
+    align-items: center;
     color: white;
 }
-.ulHomeB{
+
+.ulHomeB {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
-.ImgB{
+.ImgB {
     height: 550px;
     width: 550px;
 }
 
-h1{
+h1 {
+    position: relative;
+    display: block;
+    padding-top: 100px;
     font-size: 45px;
 }
-h2{
+
+h3 {
+    position: absolute;
     font-size: 32px;
 }
 
+.containerB {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.imgB {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.textB {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+    
+.footer {
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #ff8801;
+    background-color: #282931;
+}
+
+.footer>* {
+    flex: 1 100%;
+}
+
+.l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.r-footer {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.r-footer>* {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.box a {
+    color: #ff8801;
+}
+
+.h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+}
+
+.b-footer {
+    text-align: center;
+    color: #ff8801;
+    padding-top: 50px;
+}
+
+.l-footer p {
+    padding-right: 20%;
+    color: #ff8801;
+}
+
+@media screen and (min-width: 600px) {
+    .r-footer>* {
+        flex: 1;
+    }
+
+    .features {
+        flex-grow: 2;
+    }
+
+    .l-footer {
+        flex: 1 0px;
+    }
+
+    .r-footer {
+        flex: 2 0px;
+    }
+}
+
+a {
+    text-decoration: none;
+}

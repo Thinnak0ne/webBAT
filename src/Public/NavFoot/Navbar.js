@@ -6,7 +6,7 @@ export default function Navbar() {
   function scrollFunction() {
      console.log(document.documentElement.scrollTop)
     var navi = document.documentElement.scrollTop
-    if (navi > 800) {
+    if (navi > 780) {
       document.getElementById("navbar").style.opacity= 100;
       document.getElementById("navbar").style.color = '#d3dbde';
       document.getElementById("navbar").style.backgroundColor = "#000";
@@ -21,7 +21,6 @@ export default function Navbar() {
       <div className='nav'>ໜ້າຫຼັກ</div>
       <div className='nav'>ສິນຄ້າ</div>
       <div className='nav'>ບໍລິການອື່ນໆ</div>
-      <div className='nav'>ກ່ຽວກັບພວກເຮົາ</div>
       <div className='nav'>ຕິດຕໍ່ພວກເຮົາ</div>
     </div>
   )
