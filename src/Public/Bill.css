@@ -111,6 +111,11 @@
     width: 550px;
 }
 
+.ImgB2 {
+    height: 550px;
+    width: 550px;
+}
+
 h1 {
     position: relative;
     display: block;
@@ -136,6 +141,7 @@ h3 {
 }
 
 .textB {
+    color:white;
     font-size: 20px;
     padding-left: 20px;
 }
