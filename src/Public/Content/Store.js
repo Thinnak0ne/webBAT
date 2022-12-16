@@ -13,6 +13,8 @@ import Case from "./StoreBottom/Case";
 import Monitor from "./StoreBottom/Monitor";
 import OS from "./StoreBottom/OS";
 
+import Poster from "./StoreAdvert/Poster";
+
 import HighSpec from "./StoreComBuild/HighSpec";
 import MidiumSpec from "./StoreComBuild/MidiumSpec";
 import LowSpec from "./StoreComBuild/LowSpec";
@@ -79,7 +81,9 @@ export default function Store() {
       <div className="MainStoreT">
         {/* advert */}
         <div className="emptyFNavT"></div>
-        <div className="AdvertStoreT"></div>
+        <div className="AdvertStoreT">
+        <Poster/>
+        </div>
         {/* product */}
         <div className="TextStoreT">
           Choose <br /> your brand

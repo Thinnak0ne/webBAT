@@ -107,9 +107,7 @@
 .AdvertStoreT{
   max-width: 1200px;
   width: 100vw;
-  max-height: 400px;
-  height: 100vh;
-  background-color: #555870;
+  height: auto;
 }
 .TextStoreT{
   text-align: center;
@@ -221,4 +219,9 @@
 .SPCboxStoreT:hover .BottomSPCStoreT{
   border-style: ridge;
   background-color: #282931  ;
+}
+.posterStoreT{
+  max-width: 1200px;
+  width: 100vw;
+  height: auto;
 }
