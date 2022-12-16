@@ -2,7 +2,7 @@ import React from "react";
 import Img1 from "../../img/7.png";
 import Carousel from "react-grid-carousel";
 import StoreB from './HomeBottom/Store'
-import Fix from './HomeBottom/Repair'
+import Fix from './HomeBottom/Fix'
 import Mobile from './HomeBottom/Mobile'
 import Contact from './HomeBottom/Contact'
 import Img2 from "../../img/FusionChart_Suite_Romania.png";
