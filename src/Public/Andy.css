@@ -2,3 +2,64 @@
     display: flex;
     justify-content: center;
 }
+
+.CenterA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderA{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.CirclerightA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: #28293D;
+    border: 3px solid #FF8801;
+    border-radius: 50%;
+}
+
+.RectanglerightA{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    top: 340px;
+    left: 251px;
+    background: #555870;
+    border-radius: 75px 0px 0px 75px;
+}
+
+.RectangleleftA{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    top: 340px;
+    left: 251px;
+    background: #555870;
+    border-radius: 0px 75px 75px 0px;
+}
+
+.Text1A{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    /* height: 150px; */
+}
+
+.Text2A{
+    color: white;
+    height: 150px;
+    padding: 5px;
+}
