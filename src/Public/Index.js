@@ -8,16 +8,30 @@ import './Thon.css'
 import './Main.css'
 import { Routes, Route } from "react-router-dom";
 import Store from './Content/Store'
+import Repair from './Content/Repair'
 export default function Index() {
   return (
     <div>
       <React.StrictMode>
-        <NavigationBar/>
+        {/* { location.pathname === "/profile" ||
+              location.pathname === "/freelaner" ||
+              location.pathname === "/login" ||
+              location.pathname === "/employer" ||
+              location.pathname === "/account" ||
+              location.pathname === "/search" ||
+              location.pathname === "/" ? (
+              <div>
+                {" "}
+                <Footer />
+              </div>
+            ) : null}  */}
+        <NavigationBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/store" element={<Store />} />
+          <Route path="/repair" element={<Repair />} />
         </Routes>
-        <FooterBar/>
+        <FooterBar />
       </React.StrictMode>
     </div>
   );

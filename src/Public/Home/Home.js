@@ -2,7 +2,7 @@ import React from "react";
 import Img1 from "../../img/7.png";
 import Carousel from "react-grid-carousel";
 import StoreB from './HomeBottom/Store'
-import Fix from './HomeBottom/Fix'
+import Fix from './HomeBottom/Repair'
 import Mobile from './HomeBottom/Mobile'
 import Contact from './HomeBottom/Contact'
 import Img2 from "../../img/FusionChart_Suite_Romania.png";
@@ -60,7 +60,9 @@ export default function Home() {
             </Carousel.Item>
             <Carousel.Item>
               <div style={{ display: "flex", justifyContent: "center", padding: '10px' }}>
-                <Fix />
+                <a href={'/repair'}>
+                  <Fix />
+                </a>
               </div>
             </Carousel.Item>
             <Carousel.Item>
@@ -78,30 +80,30 @@ export default function Home() {
         <div className="containHomeT">
           <div className="containerB">
             <div className="textB">
-              <h1>Paris is one of the most magnificient cities in France.</h1>
+              <h1>ເວັບໄຊນີ້ແມ່ນພັດທະນາມາເພື່ອເປັນໂຕກາງໃນການຈັດຫາສະເປັກຄອມໄດ້ຕາມທີທ່ານຕ້ອງການ.</h1>
             </div>
             <div className="imagB">
-              <img src={Img2} className="ImgB" />
+              <img src={Img2} className="ImgB2" alt="img" />
             </div>
           </div>
         </div>
         <div className="containHomeT">
           <div className="containerB">
             <div className="imagB">
-              <img src={Img3} className="ImgB" />
+              <img src={Img3} className="ImgB2" alt="img" />
             </div>
             <div className="textB">
-              <h1>Paris is one of the most magnificient cities in France.</h1>
+              <h1>ນອກຈາກນັ້ນພວກເຮົາຍັງມີບໍລິການອື່ນອີກຫຼາກຫຼາຍບໍ່ວ່າຈະເປັນບໍລິການມືຖື,ໂນ້ດບຸກ,ສ້ອມແປງ ແລະ ອື່ນໆ</h1>
             </div>
           </div>
         </div>
         <div className="containHomeT">
           <div className="containerB">
             <div className="textB">
-              <h1>Paris is one of the most magnificient cities in France.</h1>
+              <h1>ວິໄສທັດຂອງພວກເຮົາມີຈຸດປະສົງຢາກມອບປະສົບການທີ່ທ່ານສາມາດເລືອກໄດ້ຕາມຄວາມຕ້ອງການ ແລະ ອຳນວຍຄວາມສະດວກສະບາຍໃຫ້ກັບທ່ານ.</h1>
             </div>
             <div className="imagB">
-              <img src={Img4} className="ImgB" />
+              <img src={Img4} className="ImgB2" alt="img" />
             </div>
           </div>
         </div>
