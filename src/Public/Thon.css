@@ -2,6 +2,12 @@
     display: flex;
     justify-content: center;
 }
+.emptyFNavT{
+  padding: 50px ;
+}
+.empty20pxT{
+  padding: 20px;
+}
 /* HomeT */
 .containHomeT{
     display: flex;
@@ -56,7 +62,7 @@
   height: auto;
   transition: .5s;
 }
-.overlay {
+.overlayT {
   z-index:-1;
   position: absolute;
   border-radius: 65px;
@@ -73,7 +79,7 @@
 .BoxT:hover{
   border-radius: 65px;
 }
-.BoxT:hover .overlay {
+.BoxT:hover .overlayT {
   opacity: 1;
 }
 .BoxT:hover .TextT {
@@ -89,3 +95,127 @@
 
 
 /* >HomeBottomT */
+/* storeT */
+.MainStoreT{
+  max-width: 1200px;
+  width: 100vw;
+  height: 100vh;
+}
+.AdvertStoreT{
+  max-width: 1200px;
+  width: 100vw;
+  max-height: 400px;
+  height: 100vh;
+  background-color: #555870;
+}
+.TextStoreT{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #FF8801;
+}
+.ProductStoreT{
+  max-width: 1180px;
+  width: 100vw;
+}
+/* storeT */
+/* StoreBottomT */
+.PStoreBT{
+  width: auto;
+  height: 190px;
+}
+.BoxIconST{
+  position: relative;
+  width: 150px;
+  height:150px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-image: linear-gradient(135deg,#FF8801,#000, #FF8801) 30;
+  border-width: 3px;
+  border-style: solid;
+  transition: .5s ;
+}
+.IconPStoreT{
+  width: 100px;
+  transition: .5s ;
+}
+.BoxTextStoreT{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF8801;
+}
+.overlayStoreT {
+  z-index:-1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ;
+  background-color: #28293D;
+}
+.BoxIconST:hover .overlayStoreT {
+  opacity: 1;
+}
+.BoxIconST:hover .IconPStoreT {
+  width:120px;
+}
+.BoxIconST:hover{
+  border-image: linear-gradient(50deg,#FF8801,#000, #FF8801) 30;
+}
+.SPCboxStoreT{
+  width: 300px;
+  height: 500px;
+  border-image: linear-gradient(135deg,#FF8801,#000, #FF8801) 30;
+  border-width: 3px;
+  border-style: solid;
+  position:relative;
+  background-color: #000;
+  cursor: pointer;
+}
+.ImgPositionStoreT{
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+.ImgPCStoreT{
+  max-width: 250px;
+  height: auto;
+  padding: 10px;
+  transition: .5s;
+}
+.SPCboxStoreT:hover .ImgPCStoreT{
+  max-width: 300px;
+}
+.TextSPCStoreT{
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  bottom:0;
+}
+.TextSPCStoreT div div{
+  font-size:20px;
+  color: #FF8801;
+  display:flex;
+  justify-content:center;
+}
+
+.BottomSPCStoreT{
+  border-style: ridge;
+  border: 3px ridge #FF8801;
+  transition: .5s;
+}
+.SPCboxStoreT:hover .BottomSPCStoreT{
+  border-style: ridge;
+  background-color: #282931  ;
+}
