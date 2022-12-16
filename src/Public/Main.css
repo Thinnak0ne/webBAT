@@ -1,7 +1,8 @@
 body{
     overflow: overlay;
     background-color:#282931 ;
-    height: 200vh;
+    height: 100%;
     margin: 0;
     font-family: 'Noto Sans Lao';
+
 }

@@ -14,7 +14,7 @@ export default function Store() {
           <div className="overlayT"></div>
         </div>
       </div>
-      <div className="TextT">Store</div>
+      <div className="TextT">ສິນຄ້າ</div>
     </div>
   );
 }

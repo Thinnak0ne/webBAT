@@ -9,7 +9,7 @@ export default function Contact() {
           <div className="overlayT"></div>
         </div>
       </div>
-      <div className="TextT">Contact</div>
+      <div className="TextT">ຕິດຕໍ່</div>
     </div>
   )
 }
