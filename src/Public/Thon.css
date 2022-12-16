@@ -2,6 +2,12 @@
     display: flex;
     justify-content: center;
 }
+.CenT{
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100vw;
+}
 .emptyFNavT{
   padding: 50px ;
 }
@@ -92,14 +98,11 @@
   transition: .5s;
 }
 
-
-
 /* >HomeBottomT */
 /* storeT */
 .MainStoreT{
   max-width: 1200px;
   width: 100vw;
-  height: 100vh;
 }
 .AdvertStoreT{
   max-width: 1200px;

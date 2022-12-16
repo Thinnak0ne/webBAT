@@ -81,14 +81,14 @@ export default function Home() {
               <h1>Paris is one of the most magnificient cities in France.</h1>
             </div>
             <div className="imagB">
-              <img src={Img2} className="ImgB" />
+              <img src={Img2} alt='' className="ImgB" />
             </div>
           </div>
         </div>
         <div className="containHomeT">
           <div className="containerB">
             <div className="imagB">
-              <img src={Img3} className="ImgB" />
+              <img src={Img3} alt='' className="ImgB" />
             </div>
             <div className="textB">
               <h1>Paris is one of the most magnificient cities in France.</h1>
@@ -101,7 +101,7 @@ export default function Home() {
               <h1>Paris is one of the most magnificient cities in France.</h1>
             </div>
             <div className="imagB">
-              <img src={Img4} className="ImgB" />
+              <img src={Img4} alt='' className="ImgB" />
             </div>
           </div>
         </div>
