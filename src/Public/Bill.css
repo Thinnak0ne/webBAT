@@ -50,7 +50,7 @@
 
 
 #navbar {
-    color: #d3dbde;
+    opacity: 0;
     overflow: hidden;
     padding: 5px;
     transition: 0.4s;
