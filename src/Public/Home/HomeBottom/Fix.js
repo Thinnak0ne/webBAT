@@ -6,10 +6,10 @@ export default function Fix() {
       <div>
         <div className="containerIconT">
           <img alt='' src={Icon} className="IconHomeT"/>
-          <div className="overlay"></div>
+          <div className="overlayT"></div>
         </div>
       </div>
-      <div className="TextT">Fix</div>
+      <div className="TextT">ສ້ອມແປງ</div>
     </div>
   )
 }
