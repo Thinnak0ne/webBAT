@@ -67,12 +67,16 @@ export default function Home() {
             </Carousel.Item>
             <Carousel.Item>
               <div style={{ display: "flex", justifyContent: "center", padding: '10px' }}>
-                <Mobile />
+                <a href={'/cause'}>
+                  <Mobile />
+                </a>
               </div>
             </Carousel.Item>
             <Carousel.Item>
               <div style={{ display: "flex", justifyContent: "center", padding: '10px' }}>
+              <a href={'/contact'}>
                 <Contact />
+                </a>
               </div>
             </Carousel.Item>
           </Carousel>

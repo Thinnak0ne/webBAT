@@ -11,6 +11,9 @@
 .emptyFNavT{
   padding: 50px ;
 }
+.empty50pxT{
+  padding: 47px;
+}
 .empty20pxT{
   padding: 20px;
 }
@@ -136,6 +139,7 @@
   border-width: 3px;
   border-style: solid;
   transition: .5s ;
+  cursor: pointer;
 }
 .IconPStoreT{
   width: 100px;
@@ -225,3 +229,52 @@
   width: 100vw;
   height: auto;
 }
+/* test */
+.ImgTestT{
+  width:200px;
+  height: auto;
+}
+#NavBarT{
+  opacity: 0;
+    overflow: hidden;
+    padding: 15px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    
+}
+#NavBarT .nav {
+  float: left;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+#NavBarT .nav .textT{
+  color: #fff;
+}
+.NavColorT{
+  background-color:aliceblue;
+  padding: 1px;
+}
+/* ul{
+  background-color:#FF8801;
+  margin: 0;
+  overflow: hidden;
+}
+li{
+  float: left;
+  display: block;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+li:hover{
+  background-color: aqua;
+} */
+

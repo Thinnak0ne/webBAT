@@ -1,5 +1,9 @@
 import React from 'react'
+
+import PF1 from '../../img/5.png'
+
 import Thone from '../../img/thone.jpeg'
+
 
 export default function Contact() {
     return (
@@ -11,7 +15,9 @@ export default function Contact() {
             <div className='CenterA'>
                 <div className='RectanglerightA'>
                     <div className='CirclerightA'>
-                        <img src='' alt=''/>
+
+                        <img src={PF1} alt='' className='ImgTestT'/>
+
                     </div>
                     <div className='Text2A'>
                         Mr. Thinnakone Khotsimeuan
@@ -47,6 +53,7 @@ export default function Contact() {
             <div className='CenterA'>
                 <div className='RectanglerightA'>
                     <div className='CirclerightA'>Image</div>
+
                     <div className='Text2A'>
                         Ms. Souphaphone Houatthongkham
                         <br/>
@@ -55,6 +62,7 @@ export default function Contact() {
                         Email:
                         <br/>
                         Phone:
+
                     </div>
                 </div>
             </div>
@@ -77,6 +85,7 @@ export default function Contact() {
             </div>
 
             <div style={{ padding: '40px' }}></div>
+
         </div>
     )
 }
