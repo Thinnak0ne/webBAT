@@ -24,6 +24,7 @@
     background: #28293D;
     border: 3px solid #FF8801;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .RectanglerightA{
