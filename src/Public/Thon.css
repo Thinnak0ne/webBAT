@@ -17,6 +17,9 @@
 .empty20pxT{
   padding: 20px;
 }
+.empty100pxT{
+  padding: 100px;
+}
 /* HomeT */
 .containHomeT{
     padding-top: 30px;
@@ -235,7 +238,6 @@
   height: auto;
 }
 #NavBarT{
-  opacity: 0;
     overflow: hidden;
     padding: 15px;
     transition: 0.4s;
@@ -248,7 +250,7 @@
 #NavBarT .nav {
   float: left;
   text-align: center;
-  padding: 20px;
+  padding: 18px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
@@ -258,7 +260,7 @@
   color: #fff;
 }
 .NavColorT{
-  background-color:aliceblue;
+  background-color:#FF8801;
   padding: 1px;
 }
 /* ul{
@@ -278,3 +280,51 @@ li:hover{
   background-color: aqua;
 } */
 
+/* cause */
+.CauseT{
+  max-width: 1200px;
+  width: 100vw;
+}
+.causeMainT{
+  height: 200px;
+  max-width:360px;
+  width: 100vw;
+  display: flex;
+  justify-content:space-between;
+  background-color: #555870;
+  border-radius: 5px; 
+  border-image: linear-gradient(135deg,#FF8801,#000, #FF8801) 30;
+  border-width: 3px;
+  border-style: solid;
+  overflow: hidden;
+}
+.causeMainT div{
+  width:180px;
+  overflow: hidden;
+}
+.causeMainT .dataT{
+  height: 130px;
+  padding:10px;
+}
+.causeMainT .btT{
+  height: 50px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.ImgcauseT{
+  height: 200px;
+  width: auto;
+}
+.butCauseT{
+  border: 1px solid #FF8801;
+  border-radius: 5px;
+  background-color:#282931;
+  font-family: 'Noto Sans Lao';
+  color:#FF8801;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.butCauseT:hover{
+  font-size: 16px;
+}

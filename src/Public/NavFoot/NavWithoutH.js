@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from '../../img/Main.png'
 
 export default function NavWithoutH() {
   window.onscroll = function () {
@@ -20,6 +21,11 @@ export default function NavWithoutH() {
     <div>
       <div id="NavBarT">
         <div className="nav">
+          <a href={"/"} className="textT" style={{display:'flex', justifyContent:'center',alignItems:'center'}}>
+          <img src={Logo} alt='' style={{ height:'30px' }}/>
+          </a>
+        </div>
+        <div className="nav">
           <a href={"/"} className="textT">
             ໜ້າຫຼັກ
           </a>
@@ -30,8 +36,13 @@ export default function NavWithoutH() {
           </a>
         </div>
         <div className="nav">
-          <a href={"/store"} className="textT">
-            ມືຖື
+          <a href={"/repair"} className="textT">
+            ສ້ອມແປງ
+          </a>
+        </div>
+        <div className="nav">
+          <a href={"/cause"} className="textT">
+            ຄອສ
           </a>
         </div>
         <div className="nav">
