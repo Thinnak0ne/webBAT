@@ -20,6 +20,7 @@ export default function Index() {
       <React.StrictMode>
             { location.pathname === "/contact" ||
               location.pathname === "/repair" ||
+              location.pathname === "/cause" ||
               location.pathname === "/store"   ? (
               <div>
                 <NavWOH/>
