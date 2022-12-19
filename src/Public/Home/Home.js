@@ -16,7 +16,7 @@ import ImageSlider, { Slide } from "react-auto-image-slider";
 export default function Home() {
   var ReactRotatingText = require("react-rotating-text");
   return (
-    <div className="headhomeB"> 
+    <div className="headhomeB">
       <div className="mainbodyhomeB">
         <div className="ulHomeB">
           <ul className="txtHome1">
@@ -128,8 +128,10 @@ export default function Home() {
             <div className="textB">
               <h1>ວິໄສທັດຂອງພວກເຮົາມີຈຸດປະສົງຢາກມອບປະສົບການທີ່ທ່ານສາມາດເລືອກໄດ້ຕາມຄວາມຕ້ອງການ ແລະ ອຳນວຍຄວາມສະດວກສະບາຍໃຫ້ກັບທ່ານ.</h1>
             </div>
-            <div className="imag2B">
-              <img src={Img4} className="ImgB3" alt="img" />
+            <div className="imagB">
+
+              <img src={Img4} className="ImgB2" alt="img" />
+
             </div>
           </div>
         </div>
