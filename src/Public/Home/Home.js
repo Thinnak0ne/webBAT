@@ -8,6 +8,9 @@ import Contact from './HomeBottom/Contact'
 import Img2 from "../../img/FusionChart_Suite_Romania.png";
 import Img3 from "../../img/2.png";
 import Img4 from "../../img/3.png";
+import Img5 from "../../img/6.png";
+import Slider from "infinite-react-carousel";
+import ImageSlider, { Slide } from "react-auto-image-slider";
 
 
 export default function Home() {
@@ -23,7 +26,22 @@ export default function Home() {
             </h1>
             <h3>ເລືອກໃນສິ່ງທີ່ທ່ານຕ້ອງການ ສ້າງຄວາມເປັນທ່ານ <br /> ດ້ວຍຕົວຂອງທ່ານເອງ</h3>
           </ul>
-          <img alt="" src={Img1} className="ImgB" />
+          <Slider className="slideshowB"
+            autoplay={true}
+            arrows={false}
+            autoplaySpeed={8000}
+            duration={2000}
+            smooth={true}
+          >
+            <div>
+              <img alt="" src={Img1} className="ImgB" />
+            </div>
+            
+            <div>
+              <img alt="" src={Img5} className="ImgB" />
+            </div>
+          </Slider>
+
         </div>
         <div className="containHomeT">
           <Carousel
