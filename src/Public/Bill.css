@@ -121,6 +121,11 @@
     width: 550px;
 }
 
+.ImgB4 {
+    height: 570px;
+    width: auto;
+}
+
 h1 {
     position: relative;
     display: block;
@@ -244,8 +249,8 @@ a {
 }
 
 .slideshowB {
-    height: 550px;
-    width: 550px;
+    height: 450px;
+    width: 450px;
   }
   
 
@@ -306,4 +311,5 @@ a {
 
 .CategoryB{
     display: flex;
+    margin-top: 25px;
 }
