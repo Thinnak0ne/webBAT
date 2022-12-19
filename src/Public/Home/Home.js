@@ -16,7 +16,7 @@ import ImageSlider, { Slide } from "react-auto-image-slider";
 export default function Home() {
   var ReactRotatingText = require("react-rotating-text");
   return (
-    <div className="headhomeB">
+    <div className="headhomeB"> 
       <div className="mainbodyhomeB">
         <div className="ulHomeB">
           <ul className="txtHome1">
@@ -85,12 +85,16 @@ export default function Home() {
             </Carousel.Item>
             <Carousel.Item>
               <div style={{ display: "flex", justifyContent: "center", padding: '10px' }}>
-                <Mobile />
+                <a href={'/cause'}>
+                  <Mobile />
+                </a>
               </div>
             </Carousel.Item>
             <Carousel.Item>
               <div style={{ display: "flex", justifyContent: "center", padding: '10px' }}>
+              <a href={'/contact'}>
                 <Contact />
+                </a>
               </div>
             </Carousel.Item>
           </Carousel>
@@ -101,14 +105,18 @@ export default function Home() {
               <h1>ເວັບໄຊນີ້ແມ່ນພັດທະນາມາເພື່ອເປັນໂຕກາງໃນການຈັດຫາສະເປັກຄອມໄດ້ຕາມທີທ່ານຕ້ອງການ.</h1>
             </div>
             <div className="imagB">
+
               <img src={Img2} className="ImgB2" alt="img" />
+
             </div>
           </div>
         </div>
         <div className="containHomeT">
           <div className="containerB">
             <div className="imagB">
+
               <img src={Img3} className="ImgB2" alt="img" />
+
             </div>
             <div className="textB">
               <h1>ນອກຈາກນັ້ນພວກເຮົາຍັງມີບໍລິການອື່ນອີກຫຼາກຫຼາຍບໍ່ວ່າຈະເປັນບໍລິການມືຖື,ໂນ້ດບຸກ,ສ້ອມແປງ ແລະ ອື່ນໆ</h1>
@@ -120,8 +128,8 @@ export default function Home() {
             <div className="textB">
               <h1>ວິໄສທັດຂອງພວກເຮົາມີຈຸດປະສົງຢາກມອບປະສົບການທີ່ທ່ານສາມາດເລືອກໄດ້ຕາມຄວາມຕ້ອງການ ແລະ ອຳນວຍຄວາມສະດວກສະບາຍໃຫ້ກັບທ່ານ.</h1>
             </div>
-            <div className="imagB">
-              <img src={Img4} className="ImgB2" alt="img" />
+            <div className="imag2B">
+              <img src={Img4} className="ImgB3" alt="img" />
             </div>
           </div>
         </div>

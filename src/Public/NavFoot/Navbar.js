@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Logo from '../../img/Main.png'
 export default function Navbar() {
 
   window.onscroll = function () { scrollFunction() };
   function scrollFunction() {
-     console.log(document.documentElement.scrollTop)
+    //  console.log(document.documentElement.scrollTop)
     var navi = document.documentElement.scrollTop
     if (navi > 780) {
       document.getElementById("navbar").style.opacity= 100;
@@ -18,10 +18,31 @@ export default function Navbar() {
   }
   return (
     <div id="navbar">
-      <div className='nav'>ໜ້າຫຼັກ</div>
-      <div className='nav'>ສິນຄ້າ</div>
-      <div className='nav'>ບໍລິການອື່ນໆ</div>
-      <div className='nav'>ຕິດຕໍ່ພວກເຮົາ</div>
+      <div className="nav">
+          <a href={"/"} style={{display:'flex', justifyContent:'center',alignItems:'center'}}>
+            <img src={Logo} alt='' style={{ height:'30px' }}/>
+          </a>
+        </div>
+        <div className="nav">
+          <a href={"/store"} style={{color:'white'}}>
+            ສິນຄ້າ
+          </a>
+        </div>
+        <div className="nav">
+          <a href={"/repair"} style={{color:'white'}}>
+            ສ້ອມແປງ
+          </a>
+        </div>
+        <div className="nav">
+          <a href={"/cause"} style={{color:'white'}}>
+            ຄອສ
+          </a>
+        </div>
+        <div className="nav">
+          <a href={"/contact"} style={{color:'white'}}>
+            ຕິດຕໍ່ພວກເຮົາ
+          </a>
+        </div>
     </div>
   )
 }

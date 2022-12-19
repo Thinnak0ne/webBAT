@@ -1,15 +1,17 @@
 import React from 'react'
+import Logo from '../../img/Main.png'
 
 export default function Footbar() {
   return (
-    <div>
+    <div className='disJustT'>
+      <div className='CenT'>
       <footer className="footer">
         <div className="l-footer">
           <div>
-            <img src="https://i.postimg.cc/y62wcLBq/logo.png" alt="" />
+            <img src={Logo} alt='' style={{ height:'30px' }}/>
           </div>
           <p>
-            ເວັບໄຊນີ້ກໍ່ຕັ້ງຂື່ນເມື່ອ ວັນທີພວດເຮົາຂຶ້ນ Present
+            ເວັບໄຊນີ້ກໍ່ຕັ້ງຂື່ນເມື່ອ ວັນທີພວກເຮົາຂຶ້ນ Present
             ທາງເຮົາບໍລິການຈັດສະເປັກຄອມແລະບໍລິການອື່ນໆອືກຫຼາກຫຼາຍ
             ວ່ອງໄວທັນໃຈໄປໃຊ້ເວັບອື່ນ.
           </p>
@@ -19,9 +21,9 @@ export default function Footbar() {
             <h2>
               Social</h2>
             <ul className="box">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Pinterest</a></li>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Pinterest</li>
 
             </ul>
           </li>
@@ -29,11 +31,11 @@ export default function Footbar() {
             <h2>
               Information</h2>
             <ul className="box h-box">
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Sales</a></li>
-              <li><a href="#">Certifications</a></li>
-              <li><a href="#">Customer Service</a></li>
+              <li>Blog</li>
+              <li>Pricing</li>
+              <li>Sales</li>
+              <li>Certifications</li>
+              <li>Customer Service</li>
             </ul>
           </li>
           <li>
@@ -41,9 +43,9 @@ export default function Footbar() {
               Legal
             </h2>
             <ul className="box">
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Contract</a></li>
+              <li>Privacy Policy</li>
+              <li>Terms of Use</li>
+              <li>Contract</li>
             </ul>
           </li>
         </ul>
@@ -53,6 +55,7 @@ export default function Footbar() {
           </p>
         </div>
       </footer>
+      </div>
     </div>
   )
 }
