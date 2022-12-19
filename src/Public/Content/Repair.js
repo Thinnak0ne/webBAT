@@ -1,5 +1,6 @@
 import React from "react";
 import General from "./RepairContent/General";
+import Img from "../../img/message2.png"
 
 
 export default function Repair() {
@@ -18,7 +19,14 @@ export default function Repair() {
           <General />
         </div>
         <div className="repaiconB">
-          Hello
+          <div className="containerB">
+            <div className="imagB">
+              <img src={Img} className="ImgB4" alt="img" />
+            </div>
+            <div className="textB">
+              <h1>ພວກເຮົາຮັບໃຫ້ຄຳປຶກສາກ່ຽວກັບການສ້ອມແປງອຸປະກອນຕ່າງໆ</h1>
+            </div>
+          </div>
         </div>
       </div>
     </div>
