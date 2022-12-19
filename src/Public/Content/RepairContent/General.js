@@ -1,13 +1,20 @@
 import React from 'react'
-import MemoryIcon from "@mui/icons-material/Memory";
+import Img from '../../../img/repair1.png'
 
 export default function General() {
     return (
-        <div className="span">
-            <div className="ul">ສ້ອມແປງຄອມທົ່ວໄປ</div>
-            <div className="li">
-                <MemoryIcon style={{ fontSize: "80px" }} />
-            </div>
-        </div>
+        // <div className="span">
+        //     <div className="ul">ສ້ອມແປງຄອມທົ່ວໄປ</div>
+        //     <div className="li">
+        //         <img src={Img} alt='' className='IconPStoreT'/>
+        //     </div>
+        // </div>
+    <div className="PStoreBT">
+    <div style={{ color:'white',display:'flex', justifyContent:'center' }}>ບໍລິການສ້ອມແປງທົ່ວໄປ</div>
+      <div className="BoxIconST">
+        <img src={Img} alt="" className="IconPStoreT" />
+        <div className="overlayStoreT"></div>
+      </div>
+    </div>
     )
 }
