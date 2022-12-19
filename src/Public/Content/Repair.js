@@ -10,12 +10,11 @@ export default function Repair() {
         <span className="txtRB">ບໍລິການສ້ອມແປງ</span>
         <div className="CategoryB">
           <General />
+          <div className="empty20pxT"></div>
           <General />
+          <div className="empty20pxT"></div>
           <General />
-          <General />
-          <General />
-          <General />
-          <General />
+          <div className="empty20pxT"></div>
           <General />
         </div>
         <div className="repaiconB">

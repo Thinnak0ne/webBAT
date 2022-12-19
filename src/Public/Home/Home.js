@@ -10,7 +10,6 @@ import Img3 from "../../img/2.png";
 import Img4 from "../../img/3.png";
 import Img5 from "../../img/6.png";
 import Slider from "infinite-react-carousel";
-import ImageSlider, { Slide } from "react-auto-image-slider";
 
 
 export default function Home() {
