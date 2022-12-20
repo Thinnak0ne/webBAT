@@ -13,6 +13,9 @@ import Store from './Content/Store'
 import Contact from "./Content/Contact";
 import Repair from './Content/Repair'
 import Cause from './Content/Cause'
+
+import CPU from './Content/StoreBottom/Category/CPUc'
+import MB from './Content/StoreBottom/Category/Mainboard'
 export default function Index() {
   const location = useLocation();
   return (
@@ -21,7 +24,9 @@ export default function Index() {
             { location.pathname === "/contact" ||
               location.pathname === "/repair" ||
               location.pathname === "/cause" ||
-              location.pathname === "/store"   ? (
+              location.pathname === "/store"||
+              location.pathname === "/cpu" ||
+              location.pathname === "/mainboard"   ? (
               <div>
                 <NavWOH/>
               </div>
@@ -38,6 +43,8 @@ export default function Index() {
           <Route path="/store" element={<Store />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/repair" element={<Repair />} />
+          <Route path="/cpu" element={<CPU />} />
+          <Route path="/mainboard" element={<MB />} />
         </Routes>
         <FooterBar />
       </React.StrictMode>
