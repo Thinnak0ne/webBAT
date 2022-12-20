@@ -21,8 +21,8 @@ export default function NavWithoutH() {
     <div>
       <div id="NavBarT">
         <div className="nav">
-          <a href={"/"} className="textT" style={{display:'flex', justifyContent:'center',alignItems:'center'}}>
-          <img src={Logo} alt='' style={{ height:'30px' }}/>
+          <a href={"/"} className="textT" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src={Logo} alt='' style={{ height: '30px' }} />
           </a>
         </div>
         <div className="nav">
@@ -36,8 +36,8 @@ export default function NavWithoutH() {
           </a>
         </div>
         <div className="nav">
-          <a href={"/repair"} className="textT">
-            ສ້ອມແປງ
+          <a href={"/support"} className="textT">
+            ບໍລິການ
           </a>
         </div>
         <div className="nav">

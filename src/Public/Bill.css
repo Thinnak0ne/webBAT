@@ -313,3 +313,49 @@ a {
     display: flex;
     margin-top: 25px;
 }
+
+.txtB1{
+    color:white
+}
+
+.containrgs2B {
+    width: 100%;
+    width: 75vw;
+
+}
+.rgsabout1B {
+    max-height: 60px;
+    height: 100vh;
+    background-color: gainsboro;
+}
+.paddingtopB{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    padding-top: 25px;
+}
+.containrgs2B1 {
+    width: 100%;
+    width: 250px;
+    padding: 20px 0px;
+
+}
+.rgsabout1B1 {
+    max-height: 60px;
+    height: 100vh;
+    background-color: gainsboro;
+}
+
+.bottonB{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #ff8801  ;
+    height: 50px;
+    width: 75px;
+}
+
+.bottonB:hover{
+    cursor: pointer;
+    color: black;
+}
