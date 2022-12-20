@@ -3,6 +3,7 @@ import Icon from "../../../img/psp.png";
 
 export default function PSP() {
   return (
+    <a href={'/powersupply'}>
     <div className="PStoreBT">
       <div className="BoxIconST">
         <img src={Icon} alt="" className="IconPStoreT" />
@@ -10,5 +11,6 @@ export default function PSP() {
       </div>
       <div className="BoxTextStoreT">Power Supply</div>
     </div>
+    </a>
   )
 }
