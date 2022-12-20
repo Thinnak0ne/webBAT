@@ -1,9 +1,8 @@
 import React from "react";
 import Icon from "../../../img/gpu.png";
-
-export default function GPU() {
+export default function GPU() { 
   return (
-    
+    <a href={'/gpu'}>
       <div className="PStoreBT">
         <div className="BoxIconST">
           <img src={Icon} alt="" className="IconPStoreT" />
@@ -11,6 +10,6 @@ export default function GPU() {
         </div>
         <div className="BoxTextStoreT">GPU</div>
       </div>
-    
+    </a>
   );
 }
