@@ -29,8 +29,8 @@ export default function Navbar() {
           </a>
         </div>
         <div className="nav">
-          <a href={"/repair"} style={{color:'white'}}>
-            ສ້ອມແປງ
+          <a href={"/support"} style={{color:'white'}}>
+            ບໍລິການ
           </a>
         </div>
         <div className="nav">

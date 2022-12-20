@@ -77,7 +77,7 @@ export default function Home() {
             </Carousel.Item>
             <Carousel.Item>
               <div style={{ display: "flex", justifyContent: "center", padding: '10px' }}>
-                <a href={'/repair'}>
+                <a href={'/support'}>
                   <Fix />
                 </a>
               </div>

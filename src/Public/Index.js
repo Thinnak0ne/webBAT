@@ -13,7 +13,6 @@ import Store from './Content/Store'
 import Contact from "./Content/Contact";
 import Repair from './Content/Repair'
 import Cause from './Content/Cause'
-
 import CPU from './Content/StoreBottom/Category/CPUc'
 import MB from './Content/StoreBottom/Category/Mainboard'
 import Ram from './Content/StoreBottom/Category/Ram'
@@ -25,7 +24,7 @@ export default function Index() {
     <div>
       <React.StrictMode>
             { location.pathname === "/contact" ||
-              location.pathname === "/repair" ||
+              location.pathname === "/support" ||
               location.pathname === "/cause" ||
               location.pathname === "/store"||
               location.pathname === "/cpu" ||
@@ -42,13 +41,12 @@ export default function Index() {
                 <NavigationBar />
               </div>
             ) : null} 
-        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Cause" element={<Cause />} />
           <Route path="/store" element={<Store />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/repair" element={<Repair />} />
+          <Route path="/support" element={<Repair />} />
           <Route path="/cpu" element={<CPU />} />
           <Route path="/mainboard" element={<MB />} />
           <Route path="/ram" element={<Ram />} />
