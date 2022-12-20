@@ -327,3 +327,45 @@ li:hover{
 .butCauseT:hover{
   font-size: 16px;
 }
+/* contentStoreT */
+.CpuBoxT{
+  max-width: 1200px;
+  width: 100vw;
+}
+.CpuCtT{
+  width: 180px;
+  height: 300px;
+  border-image: linear-gradient(135deg,#FF8801,#000, #FF8801) 30;
+  border-width: 3px;
+  border-style: solid;
+
+}
+.CpuImgBoxT{
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.CpuImgT{
+  width: 150px;
+  height:auto;
+  transition: 0.5s;
+}
+.CpuImgT:hover{
+  width: 170px;
+  height:auto;
+}
+.CpuDataBoxT{
+  width: auto;
+  height: 60px;
+  text-align: center;
+  color: white;
+}
+.CpuButtomBoxT{
+  width: auto;
+  height: 60px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}

@@ -1,8 +1,9 @@
 import React from 'react'
 
-import PF1 from '../../img/5.png'
-
-import Thone from '../../img/thone.jpeg'
+import Thon from '../../img/thon.jpg'
+import Binly from '../../img/binly.jpg'
+import Fon from '../../img/fon.jpg'
+import Andy from '../../img/andy.jpg'
 
 
 export default function Contact() {
@@ -16,7 +17,7 @@ export default function Contact() {
                 <div className='RectanglerightA'>
                     <div className='CirclerightA'>
 
-                        <img src={PF1} alt='' className='ImgTestT'/>
+                        <img src={Thon} alt='' className='ImgTestT'/>
 
                     </div>
                     <div className='Text2A'>
@@ -44,7 +45,9 @@ export default function Contact() {
                         <br/>
                         Phone:
                     </div>
-                    <div className='CirclerightA'>Image</div>
+                    <div className='CirclerightA'>
+                    <img src={Binly} alt='' className='ImgTestT'/>
+                    </div>
                 </div>
             </div>
 
@@ -52,7 +55,7 @@ export default function Contact() {
 
             <div className='CenterA'>
                 <div className='RectanglerightA'>
-                    <div className='CirclerightA'>Image</div>
+                    <div className='CirclerightA'><img src={Fon} alt='' className='ImgTestT'/></div>
 
                     <div className='Text2A'>
                         Ms. Souphaphone Houatthongkham
@@ -80,7 +83,9 @@ export default function Contact() {
                         <br/>
                         Phone:
                     </div>
-                    <div className='CirclerightA'>Image</div>
+                    <div className='CirclerightA'>
+                    <img src={Andy} alt='' className='ImgTestT'/>
+                    </div>
                 </div>
             </div>
 
