@@ -16,6 +16,9 @@ import Cause from './Content/Cause'
 
 import CPU from './Content/StoreBottom/Category/CPUc'
 import MB from './Content/StoreBottom/Category/Mainboard'
+import Ram from './Content/StoreBottom/Category/Ram'
+import GPU from './Content/StoreBottom/Category/GPU'
+import PSP from './Content/StoreBottom/Category/PSP'
 export default function Index() {
   const location = useLocation();
   return (
@@ -26,7 +29,10 @@ export default function Index() {
               location.pathname === "/cause" ||
               location.pathname === "/store"||
               location.pathname === "/cpu" ||
-              location.pathname === "/mainboard"   ? (
+              location.pathname === "/mainboard" ||
+              location.pathname === "/ram" ||
+              location.pathname === "/gpu" ||
+              location.pathname === "/powersupply"  ? (
               <div>
                 <NavWOH/>
               </div>
@@ -45,6 +51,9 @@ export default function Index() {
           <Route path="/repair" element={<Repair />} />
           <Route path="/cpu" element={<CPU />} />
           <Route path="/mainboard" element={<MB />} />
+          <Route path="/ram" element={<Ram />} />
+          <Route path="/gpu" element={<GPU />} />
+          <Route path="/powersupply" element={<PSP />} />
         </Routes>
         <FooterBar />
       </React.StrictMode>
