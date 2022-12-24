@@ -50,6 +50,11 @@ export default function NavWithoutH() {
             ຕິດຕໍ່ພວກເຮົາ
           </a>
         </div>
+        <div className="nav">
+          <a href={"/about"} className="textT">
+            ກ່ຽວກັບພວກເຮົາ
+          </a>
+        </div>
       </div>
       <div className="empty50pxT"></div>
       <div className="NavColorT"></div>
