@@ -10,7 +10,7 @@ export default function Contact() {
     return (
         <div>
             <div className='HeaderA'>
-                <h1>About us</h1>
+                <h1>Contact us</h1>
             </div>
 
             <div className='CenterA'>

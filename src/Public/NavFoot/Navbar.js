@@ -43,6 +43,11 @@ export default function Navbar() {
             ຕິດຕໍ່ພວກເຮົາ
           </a>
         </div>
+        <div className="nav">
+          <a href={"/about"} style={{color:'white'}}>
+            ກ່ຽວກັບພວກເຮົາ
+          </a>
+        </div>
     </div>
   )
 }

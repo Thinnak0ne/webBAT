@@ -1,60 +1,88 @@
-// import React,{useState} from 'react'
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
 
-// import Carousel from "react-grid-carousel";
-// export default function test() {
-//     const [info, setInfo] = useState (0);
-//   return (
-//     <div>
-//         <Carousel
-//               cols={3}
-//               rows={2}
-//               responsiveLayout={[
-//                 {
-//                   breakpoint: 1070,
-//                   cols: 2,
-//                 },
-//                 {
-//                   breakpoint: 740,
-//                   cols: 1,
-//                   rows: 1,
-//                 },
-//               ]}
-//               mobileBreakpoint={390}
-//               style={{ display: "flex", justifyContent: "center",backgroundColor:'red' }}
-//               loop
-//             >
-//               {info.map((row) => (
-//                 <Carousel.Item key={row.ID}>
-//                   <div
-//                    style={{ display: "flex", justifyContent: "center" }}
-//                     className="ctnhome"
-//                   >
-//                     <div
-//                       className="boxhbeta"
-//                       style={{ width: "100%" }}
-//                     >
-//                       <div className="boximghbeta">
-//                         {" "}
-//                         <img
-//                           className="pfnimghbeta"
-//                           src={
-//                             "https://rest.freelanzar.com/api/getCourseImg/" +
-//                             row.userphotoid
-//                           }
-//                           alt=""
-//                         />{" "}
-//                       </div>
-
-//                       <div className="texthome1">{row.FirstName}</div>
-//                       <div className="texthome1">{row.Detail}</div>
-//                       <div className="namfl">
-//                         <div className="tx">{row.Detail}</div>
-//                       </div>
-//                     </div>
-//                   </div>
-//                 </Carousel.Item>
-//               ))}
-//             </Carousel>
-//     </div>
-//   )
-// }
+export default function MultilineTextFields() {
+  return (
+    <div style={{ backgroundColor:'white' }}>
+    <Box
+      component="form"
+      sx={{
+        '& .MuiTextField-root': { m: 1, width: '25ch' },
+      }}
+      noValidate
+      autoComplete="off"
+    >
+      <div>
+        <TextField
+          id="outlined-multiline-flexible"
+          label="Multiline"
+          multiline
+          maxRows={4}
+        />
+        <TextField
+          id="outlined-textarea"
+          label="Multiline Placeholder"
+          placeholder="Placeholder"
+          multiline
+        />
+        <TextField
+          id="outlined-multiline-static"
+          label="Multiline"
+          multiline
+          rows={4}
+          defaultValue="Default Value"
+        />
+      </div>
+      <div>
+        <TextField
+          id="filled-multiline-flexible"
+          label="Multiline"
+          multiline
+          maxRows={4}
+          variant="filled"
+        />
+        <TextField
+          id="filled-textarea"
+          label="Multiline Placeholder"
+          placeholder="Placeholder"
+          multiline
+          variant="filled"
+        />
+        <TextField
+          id="filled-multiline-static"
+          label="Multiline"
+          multiline
+          rows={4}
+          defaultValue="Default Value"
+          variant="filled"
+        />
+      </div>
+      <div>
+        <TextField
+          id="standard-multiline-flexible"
+          label="Multiline"
+          multiline
+          maxRows={4}
+          variant="standard"
+        />
+        <TextField
+          id="standard-textarea"
+          label="Multiline Placeholder"
+          placeholder="Placeholder"
+          multiline
+          variant="standard"
+        />
+        <TextField
+          id="standard-multiline-static"
+          label="Multiline"
+          multiline
+          rows={4}
+          defaultValue="Default Value"
+          variant="standard"
+        />
+      </div>
+    </Box>
+    </div>
+  );
+}

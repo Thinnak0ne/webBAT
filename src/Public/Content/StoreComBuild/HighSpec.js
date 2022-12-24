@@ -2,6 +2,7 @@ import React from "react";
 import Img from "../../../img/HighBuild.png";
 export default function HighSpace() {
   return (
+    <a href={'/categoryhighspec'}>
     <div className="SPCboxStoreT">
       <div className="ImgPositionStoreT">
         <img alt="" src={Img} className="ImgPCStoreT" />
@@ -13,9 +14,9 @@ export default function HighSpace() {
           <div>RAM:32 GB</div>
           <div>Storage:2 TB SSD</div>
           <div className="empty20pxT"></div>
-          <div className="BottomSPCStoreT">Starting price:4300$</div>
+          <div className="BottomSPCStoreT">Starting price:60.000 ฿</div>
         </div>
       </div>
-    </div>
+    </div></a>
   );
 }
