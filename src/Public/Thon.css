@@ -24,6 +24,9 @@
 .empty100pxT{
   padding: 100px;
 }
+.empty10pxT{
+ padding: 10px;
+}
 /* HomeT */
 .containHomeT{
     display: flex;
@@ -490,5 +493,53 @@ li:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
+}
+.LoginBoxT{
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-image: linear-gradient(135deg,#FF8801,rgb(255, 255, 255), #FF8801) 30;
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+}
+.LoginT{
+  width:200px;
+  height:auto;
+}
+.LoginStyleT{
+  border: 1px solid #FF8801;
+}
+.LoginImgT{
+  height: 70px;
+  width: auto;
+}
+.LoginBoxImgT{
+  display: flex;
+  justify-content: center;
+}
+.LoginButtonBoxT{
+  display: flex;
+  justify-content: space-between;
+}
+.LoginButtonBoxT button{
+  font-size: 15px;
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  background-color:#FF8801   ;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LoginButtonBoxT button:hover{
+  font-size: 18px;
+  color: #FF8801;
+  background-color:#000000   ;
+  border: 1px solid #FF8801;
+  cursor: pointer;
 }

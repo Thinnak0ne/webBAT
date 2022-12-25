@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function Profile() {
   return (
-    <div>Profile</div>
+    <div className='disJustT'>
+      <div className='PaperT'>
+        <div>
+          profile
+        </div>
+      </div>
+    </div>
   )
 }
