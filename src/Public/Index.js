@@ -15,6 +15,7 @@ import About from './Content/About'
 import Repair from './Content/Repair'
 import Cause from './Content/Cause'
 import  Login from './Profile/Login'
+import  Profile from './Profile/Profile'
 import  Test from './test'
 
 import CPU from './Content/StoreBottom/Category/CPUc'
@@ -33,6 +34,7 @@ export default function Index() {
               location.pathname === "/repair" ||
               location.pathname === "/cause" ||
               location.pathname === "/store" ||
+              location.pathname === "/profile" ||
               location.pathname === "/about" ||
               location.pathname === "/login" ||
               location.pathname === "/cpu" ||
@@ -53,6 +55,7 @@ export default function Index() {
         
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/Cause" element={<Cause />} />
           <Route path="/store" element={<Store />} />
           <Route path="/about" element={<About />} />
