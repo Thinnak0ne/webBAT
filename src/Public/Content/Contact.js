@@ -23,11 +23,11 @@ export default function Contact() {
                     <div className='Text2A'>
                         Mr. Thinnakone Khotsimeuan
                         <br/>
-                        Facebook:
+                        Facebook:xxxxxxxxxxxxx
                         <br/>
-                        Email:
+                        Email:xxxxxxxxxxxxx
                         <br/>
-                        Phone:
+                        Phone:xxxxxxxxxxxxx
                     </div>
                 </div>
             </div>
@@ -39,11 +39,11 @@ export default function Contact() {
                     <div className='Text2A'>
                         Mr. Thipphasone Chunthabundithz
                         <br/>
-                        Facebook:
+                        Facebook:xxxxxxxxxxxxx
                         <br/>
-                        Email:
+                        Email:xxxxxxxxxxxxx
                         <br/>
-                        Phone:
+                        Phone:xxxxxxxxxxxxx
                     </div>
                     <div className='CirclerightA'>
                     <img src={Binly} alt='' className='ImgTestT'/>
@@ -60,11 +60,11 @@ export default function Contact() {
                     <div className='Text2A'>
                         Ms. Souphaphone Houatthongkham
                         <br/>
-                        Facebook:
+                        Facebook:xxxxxxxxxxxxx
                         <br/>
-                        Email:
+                        Email:xxxxxxxxxxxxx
                         <br/>
-                        Phone:
+                        Phone:xxxxxxxxxxxxx
 
                     </div>
                 </div>
@@ -77,11 +77,11 @@ export default function Contact() {
                     <div className='Text2A'>
                         Mr. Phonesavanh Keonouchanh
                         <br/>
-                        Facebook:
+                        Facebook:xxxxxxxxxxxxx
                         <br/>
-                        Email:
+                        Email:xxxxxxxxxxxxx
                         <br/>
-                        Phone:
+                        Phone:xxxxxxxxxxxxx
                     </div>
                     <div className='CirclerightA'>
                     <img src={Andy} alt='' className='ImgTestT'/>
