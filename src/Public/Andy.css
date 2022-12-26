@@ -64,3 +64,31 @@
     height: 150px;
     padding: 5px;
 }
+
+.BoxA{
+    background-color: #FF8801;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    margin-top: -275px;
+    margin-left: 90px;
+    font-weight: bold;
+    color: white;
+}
+
+.HalfA{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.PhotoA{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 1200px;
+    background-color:#28293D;
+    color: white;
+}
