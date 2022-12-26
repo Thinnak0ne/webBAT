@@ -484,9 +484,11 @@ li:hover{
 }
 .TextAboutT{
   text-align: center;
-  padding: 20px;
-  color:white;
+  padding: 40px;
+  color:#FF8801;
   font-size: 30px;
+  font-weight: bold;
+  font-family: 'Noto Sans Lao';
 }
 /* LoginT */
 .LoginMainT{
@@ -542,4 +544,15 @@ li:hover{
   background-color:#000000   ;
   border: 1px solid #FF8801;
   cursor: pointer;
+}
+.AboutImageT{
+  max-width: 1200px;
+  width: 100vw;
+  height: auto;
+}
+.AboutTextwebT{
+  text-align: center;
+  max-width: 700px;
+  font-size: 25px;
+  color: #FF8801;
 }
